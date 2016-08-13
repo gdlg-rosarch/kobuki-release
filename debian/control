@@ -1,0 +1,12 @@
+Source: ros-kinetic-kobuki-keyop
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <stonier@yujinrobot.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-ecl-exceptions, ros-kinetic-ecl-threads, ros-kinetic-ecl-time, ros-kinetic-geometry-msgs, ros-kinetic-kobuki-msgs, ros-kinetic-roscpp, ros-kinetic-std-msgs, ros-kinetic-std-srvs
+Homepage: http://ros.org/wiki/kobuki_keyop
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-kobuki-keyop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-ecl-exceptions, ros-kinetic-ecl-threads, ros-kinetic-ecl-time, ros-kinetic-geometry-msgs, ros-kinetic-kobuki-msgs, ros-kinetic-roscpp, ros-kinetic-std-msgs, ros-kinetic-std-srvs, ros-kinetic-yocs-cmd-vel-mux, ros-kinetic-yocs-velocity-smoother
+Description: Keyboard teleoperation for Kobuki: relays commands from a keyboard to Kobuki.
