@@ -1,0 +1,12 @@
+Source: ros-kinetic-kobuki-capabilities
+Section: misc
+Priority: extra
+Maintainer: Marcus Liebhardt <marcus.liebhardt@yujinrobot.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/kobuki_capabilities
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-kobuki-capabilities
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-kobuki-node, ros-kinetic-nodelet, ros-kinetic-rocon-app-manager, ros-kinetic-rocon-apps, ros-kinetic-std-capabilities
+Description: Kobuki's capabilities
