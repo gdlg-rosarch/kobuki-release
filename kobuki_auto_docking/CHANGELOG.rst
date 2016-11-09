@@ -2,7 +2,7 @@
 Changelog
 =========
 
-0.6.7 (2016-08-13)
+0.7.1 (2016-08-13)
 ------------------
 * bugfix for racing condition in goal assigning/enabling the docker
 
