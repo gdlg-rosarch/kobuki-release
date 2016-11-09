@@ -1,3 +1,38 @@
+## kobuki (kinetic) - 0.7.2-0
+
+The packages in the `kobuki` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --track kinetic --rosdistro kinetic kobuki` on `Wed, 09 Nov 2016 08:15:51 -0000`
+
+These packages were released:
+- `kobuki`
+- `kobuki_auto_docking`
+- `kobuki_bumper2pc`
+- `kobuki_capabilities`
+- `kobuki_controller_tutorial`
+- `kobuki_description`
+- `kobuki_keyop`
+- `kobuki_node`
+- `kobuki_random_walker`
+- `kobuki_rapps`
+- `kobuki_safety_controller`
+- `kobuki_testsuite`
+
+Version of package(s) in repository `kobuki`:
+
+- upstream repository: https://github.com/yujinrobot/kobuki.git
+- release repository: https://github.com/yujinrobot-release/kobuki-release.git
+- rosdistro version: `0.7.1-0`
+- old version: `0.7.1-0`
+- new version: `0.7.2-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## kobuki (indigo) - 0.6.8-0
 
 The packages in the `kobuki` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --rosdistro indigo kobuki` on `Wed, 09 Nov 2016 08:02:58 -0000`
