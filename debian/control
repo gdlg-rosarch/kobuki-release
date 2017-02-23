@@ -1,0 +1,12 @@
+Source: ros-kinetic-kobuki-auto-docking
+Section: misc
+Priority: extra
+Maintainer: Younghun Ju <yhju@yujinrobot.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-catkin, ros-kinetic-ecl-geometry, ros-kinetic-ecl-linear-algebra, ros-kinetic-ecl-threads, ros-kinetic-geometry-msgs, ros-kinetic-kdl-conversions, ros-kinetic-kobuki-dock-drive, ros-kinetic-kobuki-msgs, ros-kinetic-message-filters, ros-kinetic-nav-msgs, ros-kinetic-nodelet, ros-kinetic-pluginlib, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-std-msgs
+Homepage: http://ros.org/wiki/kobuki_auto_docking
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-kobuki-auto-docking
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-ecl-geometry, ros-kinetic-ecl-linear-algebra, ros-kinetic-ecl-threads, ros-kinetic-geometry-msgs, ros-kinetic-kdl-conversions, ros-kinetic-kobuki-dock-drive, ros-kinetic-kobuki-msgs, ros-kinetic-message-filters, ros-kinetic-nav-msgs, ros-kinetic-nodelet, ros-kinetic-pluginlib, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-std-msgs, ros-kinetic-yocs-cmd-vel-mux
+Description: Automatic docking for Kobuki: Users owning a docking station for Kobuki can use this tool to let Kobuki find its nest autonomously.
