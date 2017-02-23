@@ -1,0 +1,12 @@
+Source: ros-kinetic-kobuki-testsuite
+Section: misc
+Priority: extra
+Maintainer: Jorge Santos Simon <jorge@yujinrobot.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-kobuki-msgs, ros-kinetic-kobuki-node, ros-kinetic-message-generation, ros-kinetic-python-orocos-kdl, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs
+Homepage: http://ros.org/wiki/kobuki_testsuite
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-kobuki-testsuite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-geometry-msgs, ros-kinetic-kobuki-msgs, ros-kinetic-kobuki-node, ros-kinetic-message-runtime, ros-kinetic-python-orocos-kdl, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs
+Description: Kobuki test suite: this package provides tools to thoroughly test Kobuki's hardware.
